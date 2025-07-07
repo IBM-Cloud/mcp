@@ -1,5 +1,7 @@
 # Future location of website doc templates
 ## To quickly setup locally...
+**Prerequisites to running script**: installing python and pip.
+
 ```bash
 bash local-init.sh
 ```
