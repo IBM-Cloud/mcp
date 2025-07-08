@@ -19,7 +19,7 @@ VENV_DIR_NOT_EXISTS=$( [ ! -d "$VENV_DIR" ] && echo true || echo false)
 if $VENV_DIR_NOT_EXISTS; then
   echo "💡 Virtual environment being created."
 
-  which python3
+  which python3 &> /dev/null
   if [ $? -eq 0 ]; then
     python3 -m venv ../venv
   else
