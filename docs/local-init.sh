@@ -1,4 +1,12 @@
 #!/bin/bash
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#  📝 IBMCloud MCP Server - Bash script file.
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# Author: Maxim Shelepov
+# Description: Initializes and spins up local development server for the docs site.
+# Is referenceable in Makefile.
+
 VENV_DIR="../venv"
 
 # Verify that python is installed.
