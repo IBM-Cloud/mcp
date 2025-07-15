@@ -2,7 +2,7 @@
 INHERIT: ./base.yml
 
 # Project Information
-site_name: IBM MCP Servers
+site_name: IBM Cloud MCP Servers
 site_url: "https://pages.github.com/IBM-Cloud/mcp/"
 site_description: "IBM MCP Servers Documentation"
 site_author: "Maxim Shelepov"
