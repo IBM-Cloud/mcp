@@ -3,7 +3,7 @@
 **Prerequisites to running script**: installing python and pip.
 
 ```bash
-bash local-init.sh
+make docs # or equivalently `bash local-init.sh`.
 ```
 ## To Update Website...
 Make updates in the `mkdocs.yml` file (docs: https://www.mkdocs.org/user-guide/configuration/). If theme updates needed go to `base.yml` (docs: https://squidfunk.github.io/mkdocs-material/setup/).

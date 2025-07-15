@@ -32,7 +32,7 @@ WORKDIR /app
 USER 1001
 
 # Download, install, and configure IBM Cloud CLI
-RUN curl -L "https://download.clis.test.cloud.ibm.com/ibm-cloud-cli/${IBMCLOUD_VERSION}/IBM_Cloud_CLI_${IBMCLOUD_VERSION}_${IBMCLOUD_ARCH}.tar.gz" -o /tmp/ibmcloud.tar.gz && \
+RUN curl -L "https://download.clis.cloud.ibm.com/ibm-cloud-cli/${IBMCLOUD_VERSION}/IBM_Cloud_CLI_${IBMCLOUD_VERSION}_${IBMCLOUD_ARCH}.tar.gz" -o /tmp/ibmcloud.tar.gz && \
     tar -xf /tmp/ibmcloud.tar.gz -C /tmp && \
     mv /tmp/Bluemix_CLI/bin/ibmcloud . && \
     rm -rf /tmp/ibmcloud.tar.gz /tmp/Bluemix_CLI
@@ -48,6 +48,5 @@ RUN if [ -n "${IBMCLOUD_PLUGINS}" ]; then \
     fi
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 CMD ["/app/healthcheck.sh"]
-
 # Start the application
 CMD ["./start.sh"]
