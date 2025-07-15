@@ -32,7 +32,7 @@ use to get started using the tools:
 - 🗣️ List all code engine projects
 - 🗣️ Select the `CODE_ENGINE_PROJECT_NAME` project to work with
 
-> NOTE: The above commands are from the [core](core-mcp-server.md) set of tools and included in the code engine configuration examples above.  There are many other core commands for working with access, accounts, users, services, resource searching, etc. that can be used simply by adding the tool names to the config.
+> NOTE: The above commands are from the [core](https://ibm-cloud.github.io/mcp/servers/core/) set of tools and included in the code engine configuration examples above.  There are many other core commands for working with access, accounts, users, services, resource searching, etc. that can be used simply by adding the tool names to the config.
 
 ### 📦 Apps
 

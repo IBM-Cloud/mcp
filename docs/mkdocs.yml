@@ -41,6 +41,7 @@ home_button_icon: .icons/octicons/octicons/arrow/right/16
 # - To exclude from nav, comment out the page above in the "nav:" section.
 # draft_docs: |
 #   servers/core.md
+#   other/other.md
 
 # Extra links as icons at the bottom of the page
 extra:
