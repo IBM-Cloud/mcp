@@ -35,7 +35,7 @@ use to get started using the tools:
 - 🗣️ What resource groups are in my account?
 - 🗣️ Target the `RESOURCE_GROUP_NAME` resource group
 
-> NOTE: The above commands are from the [core](servers/core.md) set of tools and included in the code engine configuration examples above.  There are many other core commands for working with access, accounts, users, services, resource searching, etc. that can be used simply by adding the tool names to the config.
+> NOTE: The above commands are from the [core](core.md) set of tools and included in the code engine configuration examples above.  There are many other core commands for working with access, accounts, users, services, resource searching, etc. that can be used simply by adding the tool names to the config.
 
 ### 📦 VPC
 
